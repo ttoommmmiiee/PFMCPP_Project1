@@ -59,85 +59,94 @@ arm.rotateCounterClockwise();           // 4) demonstrates CamelCase
 
 
 //  1)
-//  Noun:
-//  action 1:
+//  Noun:       Mouth                  
+//  action 1:   smiles                  
+mouth.smile();
+//  action 2:   opens
+mouth.open();
+//  action 3:   sticks out tongue 
+mouth.stickOutTongue();
 
-//  action 2:
-
-//  action 3:
- 
 //  2)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
+//  Noun:       Kettle
+//  action 1:   boils
+kettle.boil();
+//  action 2:   stops boiling
+kettle.stopBoil();
+//  action 3:   malfunctions
+kettle.malfunction();   // would kettle.isBroken() be a state check?
  
 //  3)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
+//  Noun:       Cat
+//  action 1:   Catches Mouse
+cat.catchMouse();
+//  action 2:   Catches Bird
+cat.catchBird();
+//  action 3:   Sleeps
+cat.sleep();
  
 //  4)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
+//  Noun:       Counter
+//  action 1:   Counts up
+counter.countUp();
+//  action 2:   Counts down
+counter.countDown();
+//  action 3:   Stops counting
+counter.stop();
  
 //  5)
-//  Noun:
-//  action 1:
+//  Noun:       Athlete
+//  action 1:   Trains
+athlete.train();
+//  action 2:   Competes
+athlete.compete();
+//  action 3:   Rests
+athlete.rest();
 
-//  action 2:
-
-//  action 3:
- 
 //  6)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
+//  Noun:       Record Player
+//  action 1:   Plays 45rpm
+recordPlayer.play45();
+//  action 2:   Plays 33rpm
+recordPlayer.play33();
+//  action 3:   Stops playing
+recordPlayer.stop();
  
 //  7)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
+//  Noun:       Printer
+//  action 1:   Print colour (UK spelling!)
+printer.printColour();
+//  action 2:   Print black and white
+printer.printBlackAndWhite();
+//  action 3:   Print two sided 
+printer.printTwoSided();    
  
 //  8)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
+//  Noun:       Frog
+//  action 1:   Jumps
+frog.jump();
+//  action 2:   Catches fly
+frog.catchfly();
+//  action 3:   Ribbits
+frog.ribbit();
  
 //  9)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
+//  Noun:       Student
+//  action 1:   Learns
+student.learn();
+//  action 2:   Misunderstands
+student.midunderstand();
+//  action 3:   Does assignment
+student.doesAssignment();
  
 //  10)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
- 
+//  Noun:       Postman
+//  action 1:   Delivers post
+postman.deliverPost();
+//  action 2:   Collects post
+postman.collectPost();
+//  action 3:   drives to depot
+postman.driveToDepot();
 
 
 #endif
